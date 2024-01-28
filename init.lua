@@ -9,8 +9,8 @@ vim.opt.tabstop = 2
 vim.g.mapleader = " "
 vim.keymap.set('n', '<leader>w', '<cmd>w!<cr>')
 vim.keymap.set('n', '<leader>q', '<cmd>q!<cr>')
-vim.keymap.set('n', '<leader>a', ':keepjumps normal! ggVG<cr>')
-vim.keymap.set('n', '<leader>e', '<cmd>NERDTreeToggle<cr>')
+vim.keymap.set('n', '<leader>a', '<cmd>keepjumps normal! ggVG<cr>')
+vim.keymap.set('n', '<leader>e', '<cmd>NERDTreeToggle<CR>')
 vim.keymap.set('n', '<leader>r', '<cmd>so<cr>')
 
 local lazy = {}
@@ -189,10 +189,10 @@ vim.cmd([[
 -- Mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
 local opts = { noremap=true, silent=true }
-vim.keymap.set('n', '<space>e', vim.diagnostic.open_float, opts)
-vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, opts)
-vim.keymap.set('n', ']d', vim.diagnostic.goto_next, opts)
-vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist, opts)
+--vim.keymap.set('n', '<space>e', vim.diagnostic.open_float, opts)
+--vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, opts)
+--vim.keymap.set('n', ']d', vim.diagnostic.goto_next, opts)
+--vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist, opts)
 
 --[[
 Language servers setup:
