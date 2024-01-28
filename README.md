@@ -5,12 +5,6 @@
 
 ## Installation
 
-### HTTPS
 ```
-git clone https://github.com/Quitaxd/nvim.git && nvim
-```
-
-### SSH
-```
-git clone git@github.com:Quitaxd/nvim.git && nvim
+curl https://raw.githubusercontent.com/Quitaxd/nvim/main/install.sh | bash
 ```

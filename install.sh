@@ -3,7 +3,7 @@
 echo "Installation is starting."
 
 printf "1) Stable version (DEFAULT)\n2) Specific branch\nNOTE: If you don't know these, select 1.\n"
-read -p ">" branch
+read -p "> " branch
 
 if [ "$branch" == "2" ]; then
 				read -p "Type a branch name: " branchname
