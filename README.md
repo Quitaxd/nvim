@@ -11,7 +11,6 @@ git clone https://github.com/Quitaxd/nvim.git && nvim
 ```
 
 ### SSH
-### Stable
 ```
 git clone git@github.com:Quitaxd/nvim.git && nvim
 ```
